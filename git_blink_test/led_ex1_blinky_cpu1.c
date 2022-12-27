@@ -59,6 +59,8 @@
 #include "driverlib.h"
 #include "device.h"
 
+uint32_t tester;
+
 //
 // Main
 //
@@ -139,6 +141,7 @@ void main(void)
         // Delay for a bit.
         //
         DEVICE_DELAY_US(500000);
+        tester++;
     }
 }
 
