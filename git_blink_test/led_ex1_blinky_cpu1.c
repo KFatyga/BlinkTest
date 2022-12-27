@@ -60,6 +60,7 @@
 #include "device.h"
 
 uint32_t tester;
+uint32_t tester_2;
 
 //
 // Main
@@ -142,6 +143,7 @@ void main(void)
         //
         DEVICE_DELAY_US(500000);
         tester++;
+        tester_2 ++;
     }
 }
 
