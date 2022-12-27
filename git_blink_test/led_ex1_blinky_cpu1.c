@@ -61,6 +61,7 @@
 
 uint32_t tester;
 uint32_t tester_2;
+uint32_T tester_DZ;
 
 //
 // Main
@@ -144,6 +145,7 @@ void main(void)
         DEVICE_DELAY_US(500000);
         tester++;
         tester_2 ++;
+        tester_DZ ++;
     }
 }
 
